@@ -1,4 +1,4 @@
-# PhaseWY: A bioinformatic pipeline for phasing and retrieving Y and W sequences from population genomic data
+# PhaseWY
 A pipeline for phasing genomic data in general and homologous sex chromosome sequences in particular. The pipeline uses several females and males to identify and to seperate the sex chromosome sequences in the heterogametic sex (XY males or ZW females).
 
 ## Introduction
