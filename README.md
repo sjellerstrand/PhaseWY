@@ -8,7 +8,7 @@ To run the pipeline, only knowledge of the sex determination system and the sex 
 
 ## Input data
 - Variants: Variants in vcf-format from males and females that will be phased. Biallelic SNPs, as well as fixed alternate alleles, indels and MNPs are supported. It is up to the user to properly filter the vcf-file before running the pipeline. Disclaimer: The pipeline has so far only been tested for vcf-files produced by freebayes. However, other callers should be supported!
-- Aligned sequences: The alignment of each sample in bam-format. The pipeline will use all reads available in the bam-files. It is therrefore up to the user to properly filter the bam files from duplicates and improper pairing (e.g. samtools -f2 -F260 -q20). The files are used to:
+- Aligned sequences: The alignment of each sample in bam-format with corresponding sample IDs in SM-tag of the @RG header to the ID in the vcf-file. The pipeline will use all reads available in the bam-files. It is therrefore up to the user to properly filter the bam files from duplicates and improper pairing (e.g. samtools -f2 -F260 -q20). The files are used to:
   * Identify callable regions
   * Sex-differences in sequence depth
   * Read based phasing<a/>
