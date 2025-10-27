@@ -1,0 +1,7 @@
+name: PhaseWY_bcftools1.17
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bcftools=1.17
+  - vcflib=1.0.3

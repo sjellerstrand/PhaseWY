@@ -1,0 +1,12 @@
+name: PhaseWY_bioinfo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bedtools=2.31.0
+  - plink=1.90b6.21
+  - python=3.9.5
+  - samtools=1.17
+  - vcflib=1.0.3
+  - vcftools=0.1.16
+  - whatshap=1.7

@@ -1,0 +1,6 @@
+name: PhaseWY_shapeit4
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - shapeit4=4.1.3
