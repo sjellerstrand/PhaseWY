@@ -1,6 +1,8 @@
 # PhaseWY
 A pipeline for phasing genomic data in general and homologous sex chromosome sequences in particular. The pipeline uses several females and males to identify and to seperate the sex chromosome sequences in the heterogametic sex (XY males or ZW females).
 
+Note that an improved snakemake pipeline of PhaseWY is in its final stages and will be published late 2025 or during 2026. If you are interested in testing this version of the pipeline before release, please reach out!
+
 ## Introduction
 In species with homologous sex chromosomes, retrieving sequence data from Y and W is challenging. This is unfortunate as such data would facilitate understanding interesting aspects of sex chromosome evolution such as, neo-sex chromosome formation, the degeneration of heterogametic Y and W chromosomes, dosage compensation on the X and Z chromosomes in response to Y and W loss of function, and the accumulation of sexually antagonistic mutations on X and Z. Here we present PhaseWY, a bioinformatic pipeline that aims to identify and extracts Y and W sequences by phasing and clustering haplotypes from multiple females and males.
 
